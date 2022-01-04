@@ -1,0 +1,33 @@
+{
+  "name": "wooby",
+  "version": "1.0.0",
+  "description": "A Discord BOT made in TypeScript using discord.js.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discordjs",
+    "discord-bot"
+  ],
+  "author": "BramboraSK",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "booru": "^2.5.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.4.0-dev.1640217946.aa7c1b2",
+    "dotenv": "^10.0.0",
+    "sqlite3": "^5.0.2",
+    "timestring": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "@types/sqlite3": "^3.1.8",
+    "@types/timestring": "^6.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
